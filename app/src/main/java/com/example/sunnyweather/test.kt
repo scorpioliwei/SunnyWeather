@@ -1,0 +1,56 @@
+package com.example.sunnyweather
+
+"status":"ok"
+"api_version":"v2.5"
+"api_status":"active"
+"lang":"zh_CN"
+"unit":"metric"
+"tzshift":28800
+"timezone":"Asia\/Shanghai"
+"server_time":1619614725
+"location":[39.89491,116.322056]
+"result":{
+    "realtime":{
+        "status":"ok"
+        "temperature":18.0
+        "humidity":0.19
+        "cloudrate":0.3
+        "skycon":"PARTLY_CLOUDY_NIGHT"
+        "visibility":26.1
+        "dswrf":245.5
+        "wind":{"speed":7.56,"direction":252.0}
+        "pressure":99689.34
+        "apparent_temperature":15.4
+        "precipitation":{
+            "local":{
+                "status":"ok"
+                "datasource":"radar"
+                "intensity":0.0
+            }
+            "nearest":{
+                "status":"ok"
+                "distance":76.28
+                "intensity":0.1875
+            }
+        }
+        "air_quality":{
+            "pm25":19.0
+            "pm10":74.0
+            "o3":84.0
+            "so2":1.0
+            "no2":29.0
+            "co":0.3
+            "aqi":{"chn":62.0,"usa":66.0}
+            "description":{"chn":"\u826f","usa":"\u826f"}
+        }
+        "life_index":{
+            "ultraviolet":{
+                "index":0.0
+                "desc":"\u65e0"
+            }
+            "comfort":{"index":4,"desc":"\u6e29\u6696"}
+            }
+        }
+    "primary":0
+    }
+}
